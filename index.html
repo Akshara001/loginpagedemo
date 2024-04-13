@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <label for="name">Name</label>
+    <input type="name"><br><br>
+    <label for="email">Email</label>
+    <input type="email"><br><br>
+    <label>Phone number</label>
+    <input type="phonenumber"><br><br>
+    <label>Password</label>
+    <input type="password"><br><br>
+    <label for="dob">Date of Birth</label><br>
+    <input type="date" id="dob" name="dob"><br><br>
+    <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+    <label>Country</label>
+    <select name="country" id="country">
+        <option>Select an option</option>
+        <option value="India">India</option>
+        <option value="US">US</option>
+        <option value="UK">UK</option>
+        <option value="China">China</option>
+        <option value="Russia">Russia</option>
+        <option value="Japan">Japan</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Canada">Canada</option>
+        <option value="Brazil">Brazil</option>
+    </select><br><br>
+    <label for="address">Write about yourself in less than 500 words.</label><br>
+    <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+    <label for="photo">Upload any Id proof</label>
+    <input type="file" id="photo" name="photo"><br><br>
+    <input type="checkbox" id="terms" name="terms">
+    <label for="terms">By clicking you agree to our </label><br><br>
+    <input type="button" value="Submit">
+</form>
+</body>
+</html>
